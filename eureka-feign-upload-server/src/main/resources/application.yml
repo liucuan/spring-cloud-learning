@@ -1,0 +1,9 @@
+server:
+  port: 8201
+spring:
+    application:
+        name: upload-server
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka
