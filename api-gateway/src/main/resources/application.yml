@@ -9,3 +9,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8100/eureka/
+#zuul:
+#  routes:
+#    user-service:
+#      path: /user-service/**
+
