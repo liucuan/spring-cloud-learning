@@ -1,8 +1,5 @@
 server:
   port: 8201
-spring:
-    application:
-        name: trace-1
 eureka:
   client:
     service-url:
