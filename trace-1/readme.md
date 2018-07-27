@@ -12,3 +12,14 @@
     Spring Cloud Sleuth生成的另外一个ID，称为Span ID，它表示一个基本的工作单元，比如：发送一个HTTP请求。
 ##### 第四个值：false
     表示是否要将该信息输出到Zipkin等服务中来收集和展示。
+    
+##### 输出到Zipkin
+######添加依赖
+    <dependency>
+       <groupId>org.springframework.cloud</groupId>
+       <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+       <version>2.0.0.RELEASE</version>
+    </dependency>
+    
+######修改application.properties
+    spring.sleuth.sampler.percentage=1
